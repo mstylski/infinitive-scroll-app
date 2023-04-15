@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #7aa7a7;
+  height: 80px;
+
+  &__button {
+    font-size: 25px;
+  }
+
+  .mat-mdc-button {
+    color: white;
+  }
+}
+
