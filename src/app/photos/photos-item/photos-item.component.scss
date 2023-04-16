@@ -1,0 +1,11 @@
+.photos-item {
+  position: relative;
+  &__loader {
+    display: flex;
+    justify-content: center;
+    background-color: #7aa7a7;
+  }
+  mat-grid-tile {
+    background: lightblue;
+  }
+}

@@ -1,1 +1,6 @@
-<p>photos-detail works!</p>
+<mat-card>
+<div *ngFor="let image of photos.photos">
+  <img src="{{image.src.landscape}}">
+</div>
+</mat-card>
+

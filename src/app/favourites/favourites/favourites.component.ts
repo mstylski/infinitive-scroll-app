@@ -1,10 +1,9 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-favourites',
   templateUrl: './favourites.component.html',
-  styleUrls: ['./favourites.component.css']
+  styleUrls: ['./favourites.component.scss']
 })
 export class FavouritesComponent {
-
 }

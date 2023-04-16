@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
-import {PhotosListComponent} from './photos/photos-list/photos-list.component';
+import {PhotosComponent} from './photos/photos/photos.component';
 import {PhotosDetailComponent} from './photos/photos-detail/photos-detail.component';
 import {FavouritesComponent} from './favourites/favourites/favourites.component';
 
@@ -10,7 +10,7 @@ const routes: Routes = [
     redirectTo: '',
     pathMatch: 'full'
   },
-  {path: 'photos', component: PhotosListComponent},
+  {path: 'photos', component: PhotosComponent},
   {path: 'favourites', component: FavouritesComponent},
   {path: 'photos/:id', component: PhotosDetailComponent},
 ];

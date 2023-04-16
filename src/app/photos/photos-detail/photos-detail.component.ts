@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {Photos} from '../photos.model';
 
 @Component({
   selector: 'app-photos-detail',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./photos-detail.component.scss']
 })
 export class PhotosDetailComponent {
-
+  photos!: Photos;
 }

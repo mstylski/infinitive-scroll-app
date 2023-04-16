@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PhotosItemComponent } from './photos-item.component';
+import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 
 describe('PhotosItemComponent', () => {
   let component: PhotosItemComponent;
@@ -8,7 +9,8 @@ describe('PhotosItemComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PhotosItemComponent ]
+      declarations: [ PhotosItemComponent ],
+      schemas: [CUSTOM_ELEMENTS_SCHEMA]
     })
     .compileComponents();
 

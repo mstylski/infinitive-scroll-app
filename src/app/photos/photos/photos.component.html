@@ -1,0 +1,11 @@
+<div
+  class="photos-item"
+  infinite-scroll
+  [infiniteScrollDistance]="2"
+  [infiniteScrollThrottle]="1000"
+  (scrolled)="onScroll()"
+>
+  <app-photos-item [isLoading]="isLoading"
+                   [photos]="photos">
+  </app-photos-item>
+</div>

@@ -1,7 +1,8 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FavouritesComponent } from './favourites/favourites.component';
-
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {FavouritesComponent} from './favourites/favourites.component';
+import {SharedModule} from '../shared/shared.module';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -9,7 +10,9 @@ import { FavouritesComponent } from './favourites/favourites.component';
     FavouritesComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MatCardModule
   ]
 })
-export class FavouritesModule { }
+export class FavouritesModule {
+}
